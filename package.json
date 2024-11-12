@@ -1,0 +1,25 @@
+{
+  "name": "spselit-eleventy",
+  "version": "0.0.1",
+  "description": "Learning resource for static website generation via eleventy",
+  "type": "module",
+  "scripts": {
+    "start": "eleventy --serve",
+    "prebuild": "del-cli ./dist",
+    "build": "eleventy"
+  },
+  "author": "Dice-Sensei",
+  "private": "true",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dice-Sensei/spselit-eleventy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Dice-Sensei/spselit-eleventy/issues"
+  },
+  "homepage": "https://github.com/Dice-Sensei/spselit-eleventy#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "del-cli": "^6.0.0"
+  }
+}
