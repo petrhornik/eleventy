@@ -8,7 +8,7 @@
     "prebuild": "del-cli ./dist",
     "build": "eleventy"
   },
-  "author": "Petr oOrník",
+  "author": "Petr Horník",
   "private": "true",
   "repository": {
     "type": "git",
