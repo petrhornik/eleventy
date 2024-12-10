@@ -6,7 +6,7 @@ export default async function (eleventyConfig) {
 
   eleventyConfig.setTemplateFormats("html,njk");
 
-  eleventyConfig.addPassthroughCopy("images");
+  eleventyConfig.addPassthroughCopy("src/images");
   eleventyConfig.addPassthroughCopy("css");
 
   return {
