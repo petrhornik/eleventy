@@ -11,6 +11,7 @@
             - proto si musím obsah HTML zařadit do sekce (např: newpage.html -> veškerý obsah zařadíme do <section class={NAZEV_SEKCE}> -> potom v newpage.css se odkazujeme na celé HTML pomocí oné sekce) 
     - složka dist = všeno co mám ve složce src se překopíruje do dist a to dávám zákazníkovi a nasazuji na server
     - v rámci webu se používá relativní adresevání
-    - pokud se odkazujeme na obrázek od jinud než z index.html tak musím odejít o složků výš ../images/image.png -> pokud chci obrázem přímo v index.html tak ty .. nepíšu a pokud něco blbne tak to **vypnu a zapnu** :D
+    - musíme přidas složku s obrázky do konfigurace, aby se zkopírovala do dist (eleventyConfig.addPassthroughCopy("src/images");) -> pokud se odkazujeme na obrázek od jinud než z index.html tak musím odejít o složků výš ../images/image.png -> pokud chci obrázem přímo v index.html tak ty .. nepíšu a pokud něco blbne tak to **vypnu a zapnu** :D
             - toto použijeme jen ve chvíli že děláme malý web
+- 
 
