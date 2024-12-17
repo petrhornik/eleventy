@@ -8,7 +8,7 @@
   </head>
   <body>
     <header>
-      <div>Learning resource for Eleventy (static website generator)</div>
+      <div>toto není main.njk :)))) (static website generator)</div>
       <nav>
         <ul>
           <li><a href="/">Main</a></li>
@@ -20,14 +20,6 @@
     </header>
 
     <main>
-      <section>
-        <h2>Test tagu: menu</h2>
-        <ul>
-          {%- for post in collections.menu -%}
-            <li>{{ post.data.title }}</li>
-          {%- endfor -%}
-        </ul>
-      </section>
       {{ content | safe }}
     </main>
 

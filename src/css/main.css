@@ -7,3 +7,9 @@ html {
 ::after {
   box-sizing: inherit;
 }
+
+
+.hlavni img{
+  width: 250px;
+  margin: 25px;
+}
